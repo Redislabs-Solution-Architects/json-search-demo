@@ -1,5 +1,5 @@
 # Redis JSON and Search Webinar 
-This is the publicly available repo for MS Learn Level 300 workshop containing presentation links and workshop outline
+This is the publicly available repo for RediSearch and JSON webinar with query problems and answers
 
 **Prerequisites:**
 - Azure Subscription
