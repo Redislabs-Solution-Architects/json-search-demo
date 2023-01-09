@@ -9,7 +9,8 @@ This is the publicly available repo for MS Learn Level 300 workshop containing p
 - Redis Cluster w/Search + JSON
 
 **Included Code:**
-- --code
+- code.sh - script for demo automation
+- --import
   - senators.py - loads senator data in JSON format (depends on senators.json in data dir)
   - import.py - leverages the open beer db (https://github.com/redis-developer/redis-datasets/tree/master/redisearch/openbeerdb/beerloader/data)
 
