@@ -10,7 +10,7 @@
 #
 # pass -h to see all options
 #################################
-. ~/tools/demo-magic/demo-magic.sh
+. demo-magic.sh
 
 
 ########################
