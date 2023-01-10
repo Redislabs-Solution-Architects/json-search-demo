@@ -2,6 +2,8 @@
 This is the publicly available repo for RediSearch and JSON webinar with query problems and answers
 
 **Prerequisites:**
+- Redis CLI tool
+  - https://redis.io/docs/manual/cli/
 - Azure Subscription
   - https://portal.azure.com/
 
@@ -9,13 +11,10 @@ This is the publicly available repo for RediSearch and JSON webinar with query p
 - Redis Cluster w/Search + JSON
 
 **Included Code:**
-- code.sh - script for demo automation
-- --import
+- code.sh - script for demo automation (depends on demo-magic.sh)
+- import - python scripts that require python3 (requirements.txt included)
   - senators.py - loads senator data in JSON format (depends on senators.json in data dir)
   - import.py - leverages the open beer db (https://github.com/redis-developer/redis-datasets/tree/master/redisearch/openbeerdb/beerloader/data)
-
-
-  
 
   
 **Query Exercises**
@@ -41,7 +40,7 @@ This is the publicly available repo for RediSearch and JSON webinar with query p
     - Total Count of Senators in the East Coast
     - Senators born after 1947 and name not starting with F
   
-**Lastly**
+**Last**
 - Tear Down cluster assets!
 
 Solutions
